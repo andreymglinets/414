@@ -1,3 +1,16 @@
-body {
-   margin-left: 50%; 
-  }
+.logotip
+{
+   margin-left: 7%;
+}
+
+.menu
+{
+   height: 45px;
+   width: 100%;
+   background-color: #1dd123
+}
+
+.cat
+{
+   margin-left: 7%;
+}
