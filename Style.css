@@ -13,4 +13,13 @@
 .cat
 {
    margin-left: 7%;
+   background-image:url(cat.svg);
+   background-repeat: no-repeat;
+   background-color: red; /*НЕ работает эта хунй*/
+}
+
+.cat::before
+{
+   content: "";
+   /*content: url(cat.svg); Если вставляешь в бефор ссылку, растягивается на все экран*/
 }
