@@ -9,17 +9,10 @@
    width: 100%;
    background-color: #1dd123
 }
-
-.cat
-{
-   margin-left: 7%;
-   background-image:url(cat.svg);
-   background-repeat: no-repeat;
-   background-color: red; /*НЕ работает эта хунй*/
+.cat{
+   padding-left: 30px;
 }
-
-.cat::before
-{
+.cat:before{
    content: "";
-   /*content: url(cat.svg); Если вставляешь в бефор ссылку, растягивается на все экран*/
+   border-image: url( ../414/cat.svg);
 }
