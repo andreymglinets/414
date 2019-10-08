@@ -1,8 +1,16 @@
 .logotip
 {
    margin-left: 7%;
+   position: relative;
 }
-
+.search{
+   position: absolute;
+   display: inline-block;
+   border-radius: 25px;
+   border: 2px solid black;
+   width: 284px;
+   height: 40px;
+}
 .menu
 {
    height: 45px;
@@ -11,11 +19,11 @@
 }
 .cat{
    margin-left: 7%;
-   padding-left: 30px;
+   padding-left: 25px;
    background-image: url(cat.svg);
    background-repeat: no-repeat;
 }
 .cat:before{
    content: "";
-   /*border-image: url( ../414/cat.svg);*/
+   background-color: #fff;
 }
