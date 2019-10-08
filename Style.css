@@ -10,9 +10,12 @@
    background-color: #1dd123
 }
 .cat{
+   margin-left: 7%;
    padding-left: 30px;
+   background-image: url(cat.svg);
+   background-repeat: no-repeat;
 }
 .cat:before{
    content: "";
-   border-image: url( ../414/cat.svg);
+   /*border-image: url( ../414/cat.svg);*/
 }
