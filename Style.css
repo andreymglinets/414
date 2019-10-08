@@ -9,16 +9,24 @@ header{
 }
 .logotip
 {
+<<<<<<< HEAD
    display: inline-block;
+=======
+>>>>>>> 427753627c1a4e2ad81c4cd7b217d369dce52318
    margin-left: 10.9%;
    position: relative;
    background-image: url(logo.PNG);
 }
+<<<<<<< HEAD
 input.search1{
+=======
+/*.search{
+>>>>>>> 427753627c1a4e2ad81c4cd7b217d369dce52318
    position: absolute;
    display: inline-block;
    border-radius: 25px;
    border: 2px solid black;
+<<<<<<< HEAD
    height: 42px;
    width: 14.9%;
    margin-top: 2.1%;
@@ -38,16 +46,27 @@ input.search1{
 {
    margin-top: 8.5%;
    height: 4,7%;
+=======
+   width: 284px;
+   height: 40px;
+}*/
+.menu
+{
+
+   height: 45px;
+>>>>>>> 427753627c1a4e2ad81c4cd7b217d369dce52318
    width: 100%;
    background-color: #1dd123;
 }
-.cat{
+
+.cat
+{
+
+   height: 20px;
+   width: 100px;
    margin-left: 7%;
    padding-left: 25px;
    background-image: url(cat.svg);
    background-repeat: no-repeat;
-}
-.cat:before{
-   content: "";
-   background-color: #fff;
+   background-color: red;
 }
