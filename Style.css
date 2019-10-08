@@ -1,21 +1,45 @@
+*{
+   box-sizing: border-box;
+}
+header{
+   display: block;
+   background-color: red;
+   height: 92px;
+   width: 100%;
+}
 .logotip
 {
-   margin-left: 7%;
+   display: inline-block;
+   margin-left: 10.9%;
    position: relative;
+   background-image: url(logo.PNG);
 }
-.search{
+input.search1{
    position: absolute;
    display: inline-block;
    border-radius: 25px;
    border: 2px solid black;
-   width: 284px;
-   height: 40px;
+   height: 42px;
+   width: 14.9%;
+   margin-top: 2.1%;
+   margin-left: 12%;
 }
+/*.search{
+   position: absolute;
+   display: inline-block;
+   border-radius: 25px;
+   border: 2px solid black;
+   width: 14.9%;
+   height: 40px;
+   margin-top: 24px;
+   margin-left: 24.1%;
+}*/ 
 .menu
 {
-   height: 45px;
+   margin-top: 8.5%;
+   height: 4,7%;
    width: 100%;
-   background-color: #1dd123
+   background-color: #1dd123;
 }
 .cat{
    margin-left: 7%;
