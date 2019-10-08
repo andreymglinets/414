@@ -5,17 +5,20 @@
 
 .menu
 {
+  /*dfdsfsdfdsfsdf*/
    height: 45px;
    width: 100%;
    background-color: #1dd123
 }
-.cat{
+
+.cat
+{
+
+   height: 20px;
+   width: 100px;
    margin-left: 7%;
    padding-left: 30px;
    background-image: url(cat.svg);
    background-repeat: no-repeat;
-}
-.cat:before{
-   content: "";
-   /*border-image: url( ../414/cat.svg);*/
+   background-color: red;
 }
