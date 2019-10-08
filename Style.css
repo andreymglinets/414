@@ -3,14 +3,7 @@
    margin-left: 10.9%;
    position: relative;
 }
-/*.search{
-   position: absolute;
-   display: inline-block;
-   border-radius: 25px;
-   border: 2px solid black;
-   width: 284px;
-   height: 40px;
-}*/
+
 .menu
 {
 
@@ -21,12 +14,28 @@
 
 .cat
 {
-
+   padding-top: 12px;
    height: 20px;
    width: 100px;
-   margin-left: 7%;
+   margin-left: 10.9%;
    padding-left: 25px;
-   background-image: url(cat.svg);
-   background-repeat: no-repeat;
-   background-color: red;
 }
+
+.cat:before {
+   content: "\f1b0";
+   font-family: 'icomoon'
+ }
+
+ .dog
+{
+   padding-top: 12px;
+   height: 20px;
+   width: 100px;
+   margin-left: 20.9%;
+   padding-left: 25px;
+}
+
+.dog  :before {
+   content: "\f1b0";
+   font-family: 'icomoon'
+ }
