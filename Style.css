@@ -1,41 +1,305 @@
-.logotip
-{
-   margin-left: 10.9%;
-   position: relative;
+*{
+   box-sizing: border-box;
+}
+header{
+   display: block;
+   background-color: white;
+   height: 92px;
+   width: 100%;
 }
 
+.logotip
+{
+   height: 62px;
+   width: 194px;
+   background-repeat: no-repeat;
+   background-image: url(logo.png);
+   display: inline-block;
+   position: relative;
+   
+}
+input.search1{
+   position: absolute;
+   display: inline-block;
+   border-radius: 25px;
+   border: 2px solid black;
+   height: 42px;
+   width: 14.9%;
+   margin-top: 2.1%;
+   margin-left: 12%;
+}
+/*.search{
+   position: absolute;
+   display: inline-block;
+   border-radius: 25px;
+   border: 2px solid black;
+   width: 14.9%;
+   height: 40px;
+   margin-top: 24px;
+   margin-left: 24.1%;
+}*/ 
 .menu
 {
 
-   height: 45px;
+   height: 4,7%;
    width: 100%;
-   background-color: #1dd123
+   background-color: #2CAD11;
+
 }
 
-.cat
+.cat 
 {
-   padding-top: 12px;
-   height: 20px;
-   width: 100px;
-   margin-left: 10.9%;
-   padding-left: 25px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 13px;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   display: inline-block;
+
+   
 }
 
-.cat:before {
-   content: "\f1b0";
-   font-family: 'icomoon'
+.cat a
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.cat :before {
+   padding-right: 12px;
+   content: "\e917";
+   font-family: 'icomoon';
+   color:rgb(255, 255, 35);
+   
  }
+.cat :after
+{
+   padding-left: 12px;
+   content: "\e903";
+   font-family: 'icomoon';
+}
 
  .dog
 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
    padding-top: 12px;
-   height: 20px;
-   width: 100px;
-   margin-left: 20.9%;
-   padding-left: 25px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   display: inline;
+
+  
+}
+
+.dog a
+{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
 }
 
 .dog  :before {
-   content: "\f1b0";
-   font-family: 'icomoon'
+   padding-right: 12px;
+   content: "\e916";
+   font-family: 'icomoon';
+   color:rgb(255, 255, 35);
  }
+ .dog :after
+{
+   padding-left: 12px;
+   content: "\e903";
+   font-family: 'icomoon';
+}
+
+ .allpet
+ {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left: ridge 2px  #31C412; 
+    padding-top: 12px;
+    position: absolute;
+    height: 45px;
+    width: 155px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 11.5%;
+    white-space: nowrap;
+ }
+ 
+ .allpet a
+ {  
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .allpet  :before {
+    padding-left: 12px; 
+    padding-right: 12px;
+    content: "\f1b0";
+    font-family: 'icomoon';
+    color:rgb(255, 255, 35);
+  }
+
+  .allpet :after
+{
+   padding-left: 12px;
+   content: "\e903";
+   font-family: 'icomoon';
+}
+
+.usshop
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
+   padding-top: 13px;
+   padding-left: 12px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   display: inline-block;
+   margin-left: 28%;
+   white-space: nowrap;
+}
+
+.usshop a
+{  
+       font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.devandpay 
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
+   padding-top: 13px;
+   padding-left: 12px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   display: inline-block;
+   margin-left: 41.5%;
+   white-space: nowrap;
+}
+
+.devandpay a
+{  
+       font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.sale
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
+   padding-top: 12px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   margin-left: 57%;
+   display: inline-block;
+}
+
+.sale a
+{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.sale  :before {
+   padding-right: 12px;
+   content: "\e901";
+   font-family: 'icomoon';
+   color:rgb(255, 255, 35);
+ }
+ .sale :after
+{
+   padding-left: 12px;
+   content: "\e903";
+   font-family: 'icomoon';
+}
+
+.akcii
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
+   padding-top: 12px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   margin-left: 68%;
+   display: inline-block;
+}
+
+.akcii a
+{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.akcii  :before {
+   padding-right: 12px;
+   content: "\e912";
+   font-family: 'icomoon';
+   color:rgb(255, 255, 35);
+ }
+ .akcii :after
+{
+   padding-left: 12px;
+   content: "\e903";
+   font-family: 'icomoon';
+}
+
+.cont
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: ridge 2px  #31C412; 
+   padding-top: 12px;
+   position: absolute;
+   height: 45px;
+   width: 155px;
+   text-align: center;
+   margin-left: 79%;
+   display: inline-block;
+}
+
+.cont a
+{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+
+.underhead
+{
+   height: 45px;
+   width: 100%;
+   background-color: rgb(221, 220, 220);
+}
